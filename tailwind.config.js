@@ -15,6 +15,7 @@ module.exports = {
         textLight: "#DAE4E1",
         textHeavy: "#023625",
         orange: "#EBA900",
+        yellow: "#E8F733",
       },
       fontSize: {
         sm: "8px",
@@ -23,7 +24,10 @@ module.exports = {
         xl: "32px",
         xxl: "40px",
       },
-      height: {},
+      height: {
+        mdScreen: "500px",
+        lgScreen: "600px",
+      },
       width: {},
     },
 
