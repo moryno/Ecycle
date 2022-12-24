@@ -9,13 +9,16 @@ module.exports = {
         bgLight: "#DAE4E1",
         button: "#1C8200",
         section: "#F8F8F2",
+        card: "#EFEFE4",
       },
       colors: {
         text: "#024731",
         textLight: "#DAE4E1",
+        link: "#1F7B4F",
         textHeavy: "#023625",
         orange: "#EBA900",
         yellow: "#E8F733",
+        card: "#4F4F58",
       },
       fontSize: {
         sm: "8px",
@@ -27,8 +30,13 @@ module.exports = {
       height: {
         mdScreen: "500px",
         lgScreen: "600px",
+        smView: "40vh",
+        mdView: "70vh",
       },
-      width: {},
+      width: {
+        medium: "23%",
+        large: "30%",
+      },
     },
 
     screens: {
