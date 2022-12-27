@@ -16,7 +16,7 @@ const Footer = () => {
           </h1>
         </article>
         <hr className="my-4" />
-        <article className="flex justify-between pb-10">
+        <article className="hidden  md:flex justify-between pb-10">
           <div>
             <h1 className="font-extrabold mb-2 text-[18px]">
               Products & Services
@@ -122,7 +122,7 @@ const Footer = () => {
             </ul>
           </div>
         </article>
-        <article className="flex justify-end">
+        <article className="flex md:justify-end">
           <section className="flex gap-5">
             <div className="flex items-center justify-center rounded-full ring-1 ring-white p-2 cursor-pointer">
               <FaFacebook />
